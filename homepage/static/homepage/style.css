@@ -1,0 +1,23 @@
+body{
+	font-family: Arial;
+}
+#menu ul{
+	overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    margin-block-start:0px;
+    margin-block-end:0px;
+}
+#menu li {
+    display: inline-block;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: -15px;
+}
+#menu a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% load static %}
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Homepage</title>
+	<link rel="stylesheet" href="{% static 'homepage/style.css' %}">
+</head>
+<body>
+	<div class="header" id="menu">
+		<ul>
+			<li><a href="/">Homepage</a></li>
+			<li><a href="/news">News</a></li>
+			<li><a href="/TTGS/login_user">Login TTGS</a></li>
+			<li><a href="/TTGS_homepage">Homepage TTGS</a></li>
+		</ul>
+	</div>
+	<div class="body">
+		{% block body %}
+
+		{% endblock %}
+	</div>
+</body>
+</html>

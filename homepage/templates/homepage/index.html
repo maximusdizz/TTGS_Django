@@ -1,0 +1,18 @@
+{% extends 'homepage/base.html' %}
+    {% block body %}
+        <h2>Homepage</h2>
+        <hr/>
+        <table border="1">
+        	<tr>
+        		<th>ID SinhVien</th>
+        		<th>Ten Sinh Vien</th>
+        		<th>ID Lop</th>
+        	</tr>
+        	{% for datadisplay in ThongTinSinhVien %}
+        	<tr>
+        		<td>{{datadisplay.IDSinhVien}}</td>
+        		<td>{{datadisplay.TenSinhVien}}</td>
+        		<td>{{datadisplay.IDLop}}</td>
+        	</tr>
+        	{% endfor %}	
+    {% endblock %}
