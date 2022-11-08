@@ -1,0 +1,403 @@
+﻿/*body {
+    margin: 0px 350px 0px 350px;
+}*/
+#iframe_2 {
+    border: none;
+    height: 100%;
+    width: 1150px;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid_3_content {
+    display: grid;
+    grid-template-columns: 550px 300px 300px;
+}
+
+.news {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.list-news {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.tin-hot {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.tin-tuc {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#tin-tuc-left {
+    width: 565px;
+    padding-right: 9px;
+}
+
+#tin-tuc-right {
+    width: 565px;
+    padding-left: 9px;
+}
+
+#tin-vua-den {
+    padding-left: 0px;
+}
+
+#logo img {
+    width: 10%;
+}
+
+#info p {
+    color: black;
+}
+/*.noidung_1 .grid1 {
+    grid-template-rows: 400px;
+}*/
+#big_news p {
+    color: black;
+    text-align: center;
+    font-size: 100%;
+}
+
+
+#noidung_2 p {
+    color: black;
+    text-align: center;
+    font-size: 100%;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.item-left {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding-right: 5px;
+}
+
+
+.item-center {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.item-right {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding-left: 5px;
+}
+
+/*.item-noi-dung-up {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.item-noi-dung-down {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+
+.item-noi-dung-center {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}*/
+
+.header {
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    width: 1150px;
+}
+
+.grid-item {
+    overflow: hidden;
+}
+
+.header_1 .grid-item {
+    height: 30px;
+    text-align: center;
+}
+
+.header_1 {
+    background-color: black;
+}
+
+.header_3 {
+    background-color: #f44336;
+}
+
+#header_1_left p {
+}
+
+#content p {
+    color: black;
+}
+
+#content a {
+    text-decoration: none;
+    color: black;
+}
+
+#content h3 {
+    color: black;
+}
+
+#tin-vua-den ul {
+    padding-left: 0px;
+}
+
+#footer p {
+    color: black;
+}
+
+.content {
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    width: 1150px;
+}
+
+.ban-tin .grid2 {
+    padding-bottom: 10px;
+}
+
+.footer {
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    width: 1150px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    object-fit: contain;
+}
+
+#mini-news h3 {
+    color: black;
+    font-size: smaller;
+}
+
+#mini-news ul {
+    padding-inline-start: 0px;
+}
+
+#thoi_su ul {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-left: 0px;
+}
+
+
+#thoi_su a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px 5px 10px 5px;
+}
+
+#song_khoe ul {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-left: 0px;
+}
+
+#song_khoe a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px 5px 10px 5px;
+}
+
+#menu a {
+    color: aliceblue;
+    background-color: #f44336;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+    #menu a:hover {
+        background: #f44336;
+        color: black;
+    }
+
+#menu ul {
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-left: 0px;
+}
+
+#menu li {
+    display: inline-block;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: -15px;
+}
+
+#menu1 a {
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+    #menu1 a:hover {
+        background: black;
+        color: red;
+    }
+
+#menu1 ul {
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-left: 0px;
+}
+
+#menu1 li {
+    display: inline-block;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: -15px;
+}
+
+#hotline p {
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+#searchbtn ul {
+    padding-left: 0px;
+}
+
+a.chuyenmuc {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#thoi_su a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#song_khoe a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tin-hot {
+    justify-content: space-between;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: black;
+        color:red;
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
